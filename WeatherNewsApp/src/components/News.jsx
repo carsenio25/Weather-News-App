@@ -5,7 +5,7 @@ import axios from 'axios';
 const News = () => {
     const [news, setNews] = useState([]);
 
-    const apiKey = import.meta.env.REACT_APP_NEWS_API_KEY;
+    const apiKey = import.meta.env.VITE_REACT_APP_NEWS_API_KEY;
 
     useEffect(() => {
         const fetchNews = async () => {
